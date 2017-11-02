@@ -1,0 +1,75 @@
+.nav{
+  width: 1000px;
+  height:100px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid gray;
+  background-color: black;
+  color:white;
+}
+
+.nav img, ul, form{
+  display: inline-block;
+  vertical-align: top;
+}
+.nav ul{
+  padding:15px 15px 10px 15px;
+}
+.nav li{
+  display: inline;
+  text-align: center;
+  margin-left: 45px;
+  font-size: 17px;
+  font-family: sans-serif;
+
+}
+
+  .nav ul li:after{
+  padding:5px;
+  margin-left: 15px;
+  }
+.nav a{
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+}
+  #front_logo{
+    height:100px;
+    width:96px;
+  }
+  .nav form{
+    width: 250px;
+    height:70px;
+    border-radius: 35px;
+    border: 2px;
+    padding-top: 30px;
+    margin-left: 35px;
+  }
+#box{
+  height: 30px;
+  width: 200px;
+  border-color: black;
+}
+
+#search{
+  margin-top: 2px;
+  height: 32px;
+  width: 30px;
+  margin-left: -5px;
+}
+
+#links{
+  display: inline-block;
+  margin: 5px 0px 0px 10px;
+  text-align: right;
+
+}
+
+#links img{
+  width: 35px;
+  height: 35px;
+}
+
+/*#links p{
+  margin: 0px;
+}*/
